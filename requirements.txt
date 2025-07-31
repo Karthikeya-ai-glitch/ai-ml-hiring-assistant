@@ -1,0 +1,15 @@
+# Core dependencies for TalentScout AI Hiring Assistant
+streamlit>=1.47.0
+openai>=1.98.0
+python-dotenv>=1.1.0
+
+# Note: If you get translation errors, try these troubleshooting steps:
+# 1. Check your OpenAI API key in the .env file
+# 2. Ensure you have API credits available
+# 3. Try using gpt-3.5-turbo model if gpt-4 is not available
+# 4. Check the API connection using the sidebar test button
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0 
